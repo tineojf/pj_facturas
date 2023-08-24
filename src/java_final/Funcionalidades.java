@@ -25,7 +25,7 @@ public class Funcionalidades {
 
     public static void eliminarDatosText(JTextField[] pm_array) {
         for (JTextField text : pm_array) {
-            text.setText("");
+            text.setText("0");
         }
     }
 
@@ -56,8 +56,8 @@ public class Funcionalidades {
         for (JTextField elemento : pm_array_subtotales) {
             suma += Double.parseDouble(elemento.getText());
         }
-
         pm_costos[0] = Double.toString(suma);
+        
         if (suma < 50) {
             descuento = suma * 0;
         }

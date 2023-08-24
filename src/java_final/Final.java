@@ -154,6 +154,8 @@ public class Final extends javax.swing.JFrame {
         tf_13.setBackground(new java.awt.Color(204, 204, 204));
         tf_13.setFont(new java.awt.Font("Monospaced", 1, 16)); // NOI18N
         tf_13.setForeground(new java.awt.Color(51, 51, 51));
+        tf_13.setText("0");
+        tf_13.setEnabled(false);
         tf_13.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 tf_13ActionPerformed(evt);
@@ -171,6 +173,7 @@ public class Final extends javax.swing.JFrame {
         tf_14.setBackground(new java.awt.Color(204, 204, 204));
         tf_14.setFont(new java.awt.Font("Monospaced", 1, 16)); // NOI18N
         tf_14.setForeground(new java.awt.Color(51, 51, 51));
+        tf_14.setText("0.0");
         tf_14.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         tf_14.setEnabled(false);
         tf_14.addActionListener(new java.awt.event.ActionListener() {
@@ -220,6 +223,8 @@ public class Final extends javax.swing.JFrame {
         tf_23.setBackground(new java.awt.Color(204, 204, 204));
         tf_23.setFont(new java.awt.Font("Monospaced", 1, 16)); // NOI18N
         tf_23.setForeground(new java.awt.Color(51, 51, 51));
+        tf_23.setText("0");
+        tf_23.setEnabled(false);
 
         lb_22.setFont(new java.awt.Font("Monospaced", 1, 16)); // NOI18N
         lb_22.setForeground(new java.awt.Color(51, 51, 51));
@@ -232,6 +237,7 @@ public class Final extends javax.swing.JFrame {
         tf_24.setBackground(new java.awt.Color(204, 204, 204));
         tf_24.setFont(new java.awt.Font("Monospaced", 1, 16)); // NOI18N
         tf_24.setForeground(new java.awt.Color(51, 51, 51));
+        tf_24.setText("0.0");
         tf_24.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         tf_24.setEnabled(false);
         tf_24.addActionListener(new java.awt.event.ActionListener() {
@@ -281,6 +287,8 @@ public class Final extends javax.swing.JFrame {
         tf_33.setBackground(new java.awt.Color(204, 204, 204));
         tf_33.setFont(new java.awt.Font("Monospaced", 1, 16)); // NOI18N
         tf_33.setForeground(new java.awt.Color(51, 51, 51));
+        tf_33.setText("0");
+        tf_33.setEnabled(false);
 
         lb_32.setFont(new java.awt.Font("Monospaced", 1, 16)); // NOI18N
         lb_32.setForeground(new java.awt.Color(51, 51, 51));
@@ -293,6 +301,7 @@ public class Final extends javax.swing.JFrame {
         tf_34.setBackground(new java.awt.Color(204, 204, 204));
         tf_34.setFont(new java.awt.Font("Monospaced", 1, 16)); // NOI18N
         tf_34.setForeground(new java.awt.Color(51, 51, 51));
+        tf_34.setText("0.0");
         tf_34.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         tf_34.setEnabled(false);
         tf_34.addActionListener(new java.awt.event.ActionListener() {
@@ -342,6 +351,8 @@ public class Final extends javax.swing.JFrame {
         tf_43.setBackground(new java.awt.Color(204, 204, 204));
         tf_43.setFont(new java.awt.Font("Monospaced", 1, 16)); // NOI18N
         tf_43.setForeground(new java.awt.Color(51, 51, 51));
+        tf_43.setText("0");
+        tf_43.setEnabled(false);
 
         lb_42.setFont(new java.awt.Font("Monospaced", 1, 16)); // NOI18N
         lb_42.setForeground(new java.awt.Color(51, 51, 51));
@@ -354,6 +365,7 @@ public class Final extends javax.swing.JFrame {
         tf_44.setBackground(new java.awt.Color(204, 204, 204));
         tf_44.setFont(new java.awt.Font("Monospaced", 1, 16)); // NOI18N
         tf_44.setForeground(new java.awt.Color(51, 51, 51));
+        tf_44.setText("0.0");
         tf_44.setDisabledTextColor(new java.awt.Color(0, 0, 0));
         tf_44.setEnabled(false);
         tf_44.addActionListener(new java.awt.event.ActionListener() {
@@ -447,41 +459,43 @@ public class Final extends javax.swing.JFrame {
         bg_bottom.setLayout(bg_bottomLayout);
         bg_bottomLayout.setHorizontalGroup(
             bg_bottomLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, bg_bottomLayout.createSequentialGroup()
-                .addContainerGap(53, Short.MAX_VALUE)
-                .addGroup(bg_bottomLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                    .addComponent(panel_item1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(panel_subtitles, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(panel_item2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(panel_item3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(panel_item4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jSeparator1))
-                .addGap(44, 44, 44))
             .addGroup(bg_bottomLayout.createSequentialGroup()
                 .addGap(278, 278, 278)
                 .addComponent(btn_nuevo, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(42, 42, 42)
                 .addComponent(btn_resultado, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(bg_bottomLayout.createSequentialGroup()
-                .addGap(159, 159, 159)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, bg_bottomLayout.createSequentialGroup()
                 .addGroup(bg_bottomLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(lb_importe_str1)
-                    .addComponent(lb_descuento_str))
-                .addGap(41, 41, 41)
-                .addGroup(bg_bottomLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(lb_importe_int, javax.swing.GroupLayout.PREFERRED_SIZE, 74, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(lb_descuento_int, javax.swing.GroupLayout.PREFERRED_SIZE, 74, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGroup(bg_bottomLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, bg_bottomLayout.createSequentialGroup()
+                        .addGap(159, 159, 159)
+                        .addGroup(bg_bottomLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(lb_importe_str1)
+                            .addComponent(lb_descuento_str))
+                        .addGap(41, 41, 41)
+                        .addGroup(bg_bottomLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(lb_importe_int, javax.swing.GroupLayout.PREFERRED_SIZE, 74, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lb_descuento_int, javax.swing.GroupLayout.PREFERRED_SIZE, 74, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(bg_bottomLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(bg_bottomLayout.createSequentialGroup()
+                                .addGap(122, 122, 122)
+                                .addComponent(lb_total_str)
+                                .addGap(31, 31, 31)
+                                .addComponent(lb_total_int, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, bg_bottomLayout.createSequentialGroup()
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(lb_alerta)
+                                .addGap(29, 29, 29))))
                     .addGroup(bg_bottomLayout.createSequentialGroup()
-                        .addGap(122, 122, 122)
-                        .addComponent(lb_total_str)
-                        .addGap(31, 31, 31)
-                        .addComponent(lb_total_int, javax.swing.GroupLayout.PREFERRED_SIZE, 74, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, bg_bottomLayout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(lb_alerta)
-                        .addGap(73, 73, 73))))
+                        .addContainerGap(53, Short.MAX_VALUE)
+                        .addGroup(bg_bottomLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                            .addComponent(panel_item1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(panel_subtitles, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(panel_item2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(panel_item3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(panel_item4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(jSeparator1))))
+                .addGap(44, 44, 44))
         );
         bg_bottomLayout.setVerticalGroup(
             bg_bottomLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -550,10 +564,24 @@ public class Final extends javax.swing.JFrame {
 
     private void cbox_1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cbox_1ActionPerformed
         // TODO add your handling code here:
+        if (cbox_1.isSelected()) {
+            tf_13.setEnabled(true);
+            tf_13.requestFocusInWindow();
+            tf_13.selectAll();
+        } else {
+            tf_13.setEnabled(false);
+        }
     }//GEN-LAST:event_cbox_1ActionPerformed
 
     private void cbox_2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cbox_2ActionPerformed
         // TODO add your handling code here:
+        if (cbox_2.isSelected()) {
+            tf_23.setEnabled(true);
+            tf_23.requestFocusInWindow();
+            tf_23.selectAll();
+        } else {
+            tf_23.setEnabled(false);
+        }
     }//GEN-LAST:event_cbox_2ActionPerformed
 
     private void tf_24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tf_24ActionPerformed
@@ -562,6 +590,13 @@ public class Final extends javax.swing.JFrame {
 
     private void cbox_3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cbox_3ActionPerformed
         // TODO add your handling code here:
+        if (cbox_3.isSelected()) {
+            tf_33.setEnabled(true);
+            tf_33.requestFocusInWindow();
+            tf_33.selectAll();
+        } else {
+            tf_33.setEnabled(false);
+        }
     }//GEN-LAST:event_cbox_3ActionPerformed
 
     private void tf_34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tf_34ActionPerformed
@@ -570,6 +605,13 @@ public class Final extends javax.swing.JFrame {
 
     private void cbox_4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cbox_4ActionPerformed
         // TODO add your handling code here:
+        if (cbox_4.isSelected()) {
+            tf_43.setEnabled(true);
+            tf_43.requestFocusInWindow();
+            tf_43.selectAll();
+        } else {
+            tf_43.setEnabled(false);
+        }
     }//GEN-LAST:event_cbox_4ActionPerformed
 
     private void tf_44ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tf_44ActionPerformed
@@ -601,6 +643,7 @@ public class Final extends javax.swing.JFrame {
 
         JTextField[] array_textfield = {tf_14, tf_24, tf_34, tf_44};
 
+        // Retorna y modifica suma array (parcial, descuento, total)
         String[] costos = calcularParcialDescuentoTotal(array_textfield);
 
         lb_importe_int.setText(costos[0]);
